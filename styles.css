@@ -1,0 +1,135 @@
+/* Main Style File */
+@font-face {
+    font-family: 'Arimo';
+    src: url(Arimo/Arimo-Regular.ttf);
+    font-weight: bold;
+}
+.body{
+	font-family: 'Arimo', sans-serif;
+}
+.logoDiv{
+	padding-bottom: 10px;
+}
+
+.blueColor{
+	color:#001D4E;
+}
+
+.saffronColor{
+	color: #CB7B10;
+}
+
+.greenColor{
+	color:#006400;
+}
+
+.whiteColor{
+	color: #ffffff;
+}
+
+.companyHeading{
+	font-weight: bold;
+	margin-top: 30px;
+	font-size: 40px;
+}
+
+.companyTagLine{
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.mainNavBar{
+	border-radius: 0px;
+	background-color: #006400;
+	border: 0px;
+	margin-bottom: 0px;
+
+}
+
+.mainNavBar .navbar-nav>li>a{
+	background-color: transparent;
+	color: #FFA400;
+	font-size: 16px;
+	line-height: 20px;
+}
+.mainNavBar  .navbar-nav>.active>a, .mainNavBar .navbar-nav>.active>a:focus, .mainNavBar .navbar-nav>.active>a:hover{
+	background-color: transparent;
+	color: #ffffff;
+}
+
+.mainNavBar .navbar-nav>li>a:hover{
+	background-color: transparent;
+	color: #ffffff;
+}
+
+.menuBar hr {
+    border: 0;
+    height: 10px;
+    background: #FFA400;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,0%,0)), color-stop(50%,hsla(39, 100%, 50%, 1)), color-stop(100%,hsla(0,0%,0%,0)));
+    background: -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(39, 100%, 50%, 1) 50%, hsla(0,0%,0%,0) 100%);
+    background:    -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(39, 100%, 50%, 1) 50%, hsla(0,0%,0%,0) 100%);
+    background:     -ms-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(39, 100%, 50%, 1) 50%, hsla(0,0%,0%,0) 100%);
+    background:      -o-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(39, 100%, 50%, 1) 50%, hsla(0,0%,0%,0) 100%);
+    background:         linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(39, 100%, 50%, 1) 50%, hsla(0,0%,0%,0) 100%);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contentDiv{
+	background-image: url('images/banner2.jpg');
+    background-attachment: fixed;
+    height: 300px;
+}
+
+.clipPathDiv{
+	-webkit-clip-path: polygon(50% 0, 100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+	clip-path: polygon(50% 0, 100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+	min-height: 150px;
+	background: #FFA400;
+}
+
+
+.descriptionDiv{
+	
+	background: #F0F2ED;
+}
+
+.descriptionTop{
+-webkit-clip-path: polygon(50% 100%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
+clip-path: polygon(50% 100%, 100% 25%, 100% 100%, 50% 100%, 0 100%, 0% 25%);
+	min-height: 150px;
+	background: #F0F2ED;
+}
+
+.descriptionBottom {
+	-webkit-clip-path: polygon(50% 0, 100% 0, 100% 25%, 50% 100%, 0 25%, 0 0);
+	clip-path: polygon(50% 0, 100% 0, 100% 25%, 50% 100%, 0 25%, 0 0);
+	background: #F0F2ED;
+}
+
+.carousel-control.left, .carousel-control.right{
+	background-image: url(none);
+}
+
+.carousel-control, .carousel-control:hover, .carousel-control:focus{
+	color: #000000;
+}
+
+
+/* Footer Section
+**********************************/
+.footerSection{
+	-webkit-clip-path: polygon(50% 26%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+	clip-path: polygon(50% 26%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+	
+	background: #FFA400;
+}
+
+.footerDiv{
+ 	background-color: #006400;	
+ 	font-weight: bold;
+ 	line-height: 50px;
+ 	color: #ffffff;
+ 	margin-bottom: -100px;
+}
